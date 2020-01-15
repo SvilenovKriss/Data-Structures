@@ -132,3 +132,14 @@ class DoublyLinkedList {
   return nodeToRemove;
  }
 }
+
+const doublyLinkedList = new DoublyLinkedList();
+doublyLinkedList.push(1);
+doublyLinkedList.push(2);
+doublyLinkedList.push(3);
+doublyLinkedList.push(4);
+doublyLinkedList.push(5);
+doublyLinkedList.push(6);
+doublyLinkedList.push(7);
+console.log(doublyLinkedList.remove(2));
+console.log(doublyLinkedList);
